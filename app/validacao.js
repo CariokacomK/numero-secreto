@@ -23,6 +23,7 @@ function verificaSeOChutePossuiUmValorValido(chute) {
             <button id="jogar-novamente" class="btn-jogar">Jogar Novamente</button>
         `
         body.classList.add('game-over')
+        return
     }
 
     if(numero === numeroSecreto){
