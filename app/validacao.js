@@ -15,8 +15,7 @@ function verificaSeOChutePossuiUmValorValido(chute) {
     }
 
     if (chute === 'Game Over') {
-        document.body.innerHTML =
-        `
+        document.body.innerHTML =`
             <h2>Você Perdeu!</h2>
             <h3>O número secreto era ${numeroSecreto}</h3>
 
@@ -27,8 +26,7 @@ function verificaSeOChutePossuiUmValorValido(chute) {
     }
 
     if(numero === numeroSecreto){
-        document.body.innerHTML = 
-        `
+        document.body.innerHTML =  `
             <h2>Você Acertou!</h2>
             <h3>O número secreto era ${numeroSecreto}</h3>
 
